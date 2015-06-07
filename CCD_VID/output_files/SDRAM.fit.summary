@@ -1,0 +1,19 @@
+Fitter Status : Successful - Sun May 10 23:28:38 2015
+Quartus II 64-Bit Version : 14.0.0 Build 200 06/17/2014 SJ Web Edition
+Revision Name : SDRAM
+Top-level Entity Name : CCD
+Family : Cyclone V
+Device : 5CSEMA5F31C6
+Timing Models : Final
+Logic utilization (in ALMs) : 387 / 32,070 ( 1 % )
+Total registers : 757
+Total pins : 105 / 457 ( 23 % )
+Total virtual pins : 0
+Total block memory bits : 8,192 / 4,065,280 ( < 1 % )
+Total DSP Blocks : 1 / 87 ( 1 % )
+Total HSSI RX PCSs : 0
+Total HSSI PMA RX Deserializers : 0
+Total HSSI TX PCSs : 0
+Total HSSI PMA TX Serializers : 0
+Total PLLs : 1 / 6 ( 17 % )
+Total DLLs : 0 / 4 ( 0 % )

@@ -1,0 +1,229 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Antonio\Desktop\FPGA-SOC\CCD_VID\simulation\modelsim
+Ebt656
+Z1 w1430943538
+Z2 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z3 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z4 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z5 dC:\Users\Antonio\Desktop\FPGA-SOC\CCD_VID\simulation\modelsim
+Z6 8C:/Users/Antonio/Desktop/FPGA-SOC/CCD_VID/BT656.vhd
+Z7 FC:/Users/Antonio/Desktop/FPGA-SOC/CCD_VID/BT656.vhd
+l0
+L6
+V[TaP?gnMZ>Ezh7oneXf4n2
+Z8 OV;C;10.1e;51
+31
+Z9 !s108 1431140221.249000
+Z10 !s90 -reportprogress|300|-93|-work|work|C:/Users/Antonio/Desktop/FPGA-SOC/CCD_VID/BT656.vhd|
+Z11 !s107 C:/Users/Antonio/Desktop/FPGA-SOC/CCD_VID/BT656.vhd|
+Z12 o-93 -work work -O0
+Z13 tExplicit 1
+!s100 BBQ39ePi[`CnVGRHL3][U3
+!i10b 1
+Amain
+R2
+R3
+R4
+DEx4 work 5 bt656 0 22 [TaP?gnMZ>Ezh7oneXf4n2
+l25
+L17
+VNP0EfafHA>2Pj?WcfXNG=0
+R8
+31
+R9
+R10
+R11
+R12
+R13
+!s100 JH@<7<B@k1a1UEj0z?GGI0
+!i10b 1
+Eccd
+Z14 w1430944368
+Z15 DPx4 work 3 pcg 0 22 ^`0VGNg`R9QNAWiAHTzcT1
+R2
+R3
+R4
+R5
+Z16 8C:/Users/Antonio/Desktop/FPGA-SOC/CCD_VID/ccd.vhd
+Z17 FC:/Users/Antonio/Desktop/FPGA-SOC/CCD_VID/ccd.vhd
+l0
+L8
+V=JH[zA8CDcnk<5E3H5e^_0
+!s100 nPP8ma7HZY2g7X5kLGQcn0
+R8
+31
+!i10b 1
+Z18 !s108 1431140222.471000
+Z19 !s90 -reportprogress|300|-93|-work|work|C:/Users/Antonio/Desktop/FPGA-SOC/CCD_VID/ccd.vhd|
+Z20 !s107 C:/Users/Antonio/Desktop/FPGA-SOC/CCD_VID/ccd.vhd|
+R12
+R13
+Amain
+R15
+R2
+R3
+R4
+DEx4 work 3 ccd 0 22 =JH[zA8CDcnk<5E3H5e^_0
+l178
+L40
+VCba:dB3UKSkZEc]e4bDVV3
+!s100 lDMljDbPng>Zl9:J5Xk;G3
+R8
+31
+!i10b 1
+R18
+R19
+R20
+R12
+R13
+Ppcg
+R2
+R3
+R4
+Z21 w1430194130
+R5
+Z22 8C:/Users/Antonio/Desktop/FPGA-SOC/CCD_VID/my.vhd
+Z23 FC:/Users/Antonio/Desktop/FPGA-SOC/CCD_VID/my.vhd
+l0
+L5
+V^`0VGNg`R9QNAWiAHTzcT1
+R8
+31
+b1
+Z24 !s108 1431140221.951000
+Z25 !s90 -reportprogress|300|-93|-work|work|C:/Users/Antonio/Desktop/FPGA-SOC/CCD_VID/my.vhd|
+Z26 !s107 C:/Users/Antonio/Desktop/FPGA-SOC/CCD_VID/my.vhd|
+R12
+R13
+!s100 WkbU1^2]<mTbC<oGN=nZ_0
+!i10b 1
+Bbody
+R15
+R2
+R3
+R4
+l0
+L12
+V?Bz=UKJl;[ROQSe3ZeQlj0
+R8
+31
+R24
+R25
+R26
+R12
+R13
+nbody
+!s100 ;k6Z^C6RnLlj34^9`:f403
+!i10b 1
+Etrue_dual_port_ram_dual_clock
+Z27 w1429923885
+R3
+R4
+R5
+Z28 8C:/Users/Antonio/Desktop/FPGA-SOC/CCD_VID/RAM.vhd
+Z29 FC:/Users/Antonio/Desktop/FPGA-SOC/CCD_VID/RAM.vhd
+l0
+L11
+V`UVJS6CL6]0XRG8[gmX9d1
+R8
+31
+Z30 !s108 1431140221.695000
+Z31 !s90 -reportprogress|300|-93|-work|work|C:/Users/Antonio/Desktop/FPGA-SOC/CCD_VID/RAM.vhd|
+Z32 !s107 C:/Users/Antonio/Desktop/FPGA-SOC/CCD_VID/RAM.vhd|
+R12
+R13
+!s100 LjA]cBFiV2lZbLi`6U5X80
+!i10b 1
+Artl
+R3
+R4
+DEx4 work 29 true_dual_port_ram_dual_clock 0 22 `UVJS6CL6]0XRG8[gmX9d1
+l38
+L29
+Vhgk9A@Pi?EYVAOO@1amGS1
+R8
+31
+R30
+R31
+R32
+R12
+R13
+!s100 Jo<L]mWRkXQCG>OBPe]e]3
+!i10b 1
+Evga
+Z33 w1430607101
+R2
+R3
+R4
+R5
+Z34 8C:/Users/Antonio/Desktop/FPGA-SOC/CCD_VID/vga.vhd
+Z35 FC:/Users/Antonio/Desktop/FPGA-SOC/CCD_VID/vga.vhd
+l0
+L6
+V3UYIf?21`No7<A6V]lKNC1
+R8
+31
+Z36 !s108 1431140221.465000
+Z37 !s90 -reportprogress|300|-93|-work|work|C:/Users/Antonio/Desktop/FPGA-SOC/CCD_VID/vga.vhd|
+Z38 !s107 C:/Users/Antonio/Desktop/FPGA-SOC/CCD_VID/vga.vhd|
+R12
+R13
+!s100 1[?hML3n6^PIMbHS2agj=1
+!i10b 1
+Amain
+R2
+R3
+R4
+DEx4 work 3 vga 0 22 3UYIf?21`No7<A6V]lKNC1
+l21
+L19
+V?LBBViXm^:>S^dR1Y=cUn0
+R8
+31
+R36
+R37
+R38
+R12
+R13
+!s100 KIA3d1HT2LWV7ecUE[NmW0
+!i10b 1
+Eycrcb_to_rgb
+Z39 w1430936988
+R2
+R3
+R4
+R5
+Z40 8C:/Users/Antonio/Desktop/FPGA-SOC/CCD_VID/YCrCb_to_RGB.vhd
+Z41 FC:/Users/Antonio/Desktop/FPGA-SOC/CCD_VID/YCrCb_to_RGB.vhd
+l0
+L5
+VM2Zc94deP<:9oe^S?DRH>2
+R8
+31
+Z42 !s108 1431140221.026000
+Z43 !s90 -reportprogress|300|-93|-work|work|C:/Users/Antonio/Desktop/FPGA-SOC/CCD_VID/YCrCb_to_RGB.vhd|
+Z44 !s107 C:/Users/Antonio/Desktop/FPGA-SOC/CCD_VID/YCrCb_to_RGB.vhd|
+R12
+R13
+!s100 [D;6_DH2RfG2RHL<;ZGFf2
+!i10b 1
+Amain
+R2
+R3
+R4
+DEx4 work 12 ycrcb_to_rgb 0 22 M2Zc94deP<:9oe^S?DRH>2
+l22
+L17
+VoL_bZGPRzA5[PkA1ShlaF0
+R8
+31
+R42
+R43
+R44
+R12
+R13
+!s100 A:f4U<e?mP2]k_hK8f?bX0
+!i10b 1

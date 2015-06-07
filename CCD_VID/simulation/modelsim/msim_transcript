@@ -1,0 +1,299 @@
+# Reading C:/altera/14.0/modelsim_ase/tcl/vsim/pref.tcl 
+# do SDRAM_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\14.0\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\14.0\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlib RAMSYS
+# vmap RAMSYS RAMSYS
+# Modifying modelsim.ini
+# vlog -vlog01compat -work RAMSYS +incdir+c:/users/antonio/desktop/fpga-soc/ccd_vid/db/ip/ramsys {c:/users/antonio/desktop/fpga-soc/ccd_vid/db/ip/ramsys/ramsys.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module RAMSYS
+# 
+# Top level modules:
+# 	RAMSYS
+# vlog -vlog01compat -work RAMSYS +incdir+c:/users/antonio/desktop/fpga-soc/ccd_vid/db/ip/ramsys/submodules {c:/users/antonio/desktop/fpga-soc/ccd_vid/db/ip/ramsys/submodules/ramsys_new_sdram_controller_0.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module RAMSYS_new_sdram_controller_0_input_efifo_module
+# -- Compiling module RAMSYS_new_sdram_controller_0
+# 
+# Top level modules:
+# 	RAMSYS_new_sdram_controller_0
+# vlog -vlog01compat -work RAMSYS +incdir+c:/users/antonio/desktop/fpga-soc/ccd_vid/db/ip/ramsys/submodules {c:/users/antonio/desktop/fpga-soc/ccd_vid/db/ip/ramsys/submodules/ramsys_pll_0.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module RAMSYS_pll_0
+# 
+# Top level modules:
+# 	RAMSYS_pll_0
+# vlog -vlog01compat -work RAMSYS +incdir+c:/users/antonio/desktop/fpga-soc/ccd_vid/db/ip/ramsys/submodules {c:/users/antonio/desktop/fpga-soc/ccd_vid/db/ip/ramsys/submodules/altera_reset_controller.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module altera_reset_controller
+# 
+# Top level modules:
+# 	altera_reset_controller
+# vlog -vlog01compat -work RAMSYS +incdir+c:/users/antonio/desktop/fpga-soc/ccd_vid/db/ip/ramsys/submodules {c:/users/antonio/desktop/fpga-soc/ccd_vid/db/ip/ramsys/submodules/altera_reset_synchronizer.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module altera_reset_synchronizer
+# 
+# Top level modules:
+# 	altera_reset_synchronizer
+# vcom -93 -work work {C:/Users/Antonio/Desktop/FPGA-SOC/CCD_VID/YCrCb_to_RGB.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1e Compiler 2013.06 Jun 12 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity YCrCb_to_RGB
+# -- Compiling architecture main of YCrCb_to_RGB
+# vcom -93 -work work {C:/Users/Antonio/Desktop/FPGA-SOC/CCD_VID/BT656.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1e Compiler 2013.06 Jun 12 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity BT656
+# -- Compiling architecture main of BT656
+# vcom -93 -work work {C:/Users/Antonio/Desktop/FPGA-SOC/CCD_VID/vga.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1e Compiler 2013.06 Jun 12 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity vga
+# -- Compiling architecture main of vga
+# vcom -93 -work work {C:/Users/Antonio/Desktop/FPGA-SOC/CCD_VID/RAM.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1e Compiler 2013.06 Jun 12 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity true_dual_port_ram_dual_clock
+# -- Compiling architecture rtl of true_dual_port_ram_dual_clock
+# vcom -93 -work work {C:/Users/Antonio/Desktop/FPGA-SOC/CCD_VID/my.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1e Compiler 2013.06 Jun 12 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package pcg
+# -- Compiling package body pcg
+# -- Loading package pcg
+# vcom -93 -work work {C:/Users/Antonio/Desktop/FPGA-SOC/CCD_VID/ccd.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1e Compiler 2013.06 Jun 12 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package pcg
+# -- Compiling entity CCD
+# -- Compiling architecture main of CCD
+# 
+vsim +altera -do SDRAM_run_msim_rtl_vhdl.do -l msim_transcript -gui work.ycrcb_to_rgb
+# vsim +altera -do SDRAM_run_msim_rtl_vhdl.do -l msim_transcript -gui work.ycrcb_to_rgb 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.ycrcb_to_rgb(main)
+# do SDRAM_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying modelsim.ini
+# 
+# vlib RAMSYS
+# ** Warning: (vlib-34) Library already exists at "RAMSYS".
+# 
+# vmap RAMSYS RAMSYS
+# Modifying modelsim.ini
+# vlog -vlog01compat -work RAMSYS +incdir+c:/users/antonio/desktop/fpga-soc/ccd_vid/db/ip/ramsys {c:/users/antonio/desktop/fpga-soc/ccd_vid/db/ip/ramsys/ramsys.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module RAMSYS
+# 
+# Top level modules:
+# 	RAMSYS
+# vlog -vlog01compat -work RAMSYS +incdir+c:/users/antonio/desktop/fpga-soc/ccd_vid/db/ip/ramsys/submodules {c:/users/antonio/desktop/fpga-soc/ccd_vid/db/ip/ramsys/submodules/ramsys_new_sdram_controller_0.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module RAMSYS_new_sdram_controller_0_input_efifo_module
+# -- Compiling module RAMSYS_new_sdram_controller_0
+# 
+# Top level modules:
+# 	RAMSYS_new_sdram_controller_0
+# vlog -vlog01compat -work RAMSYS +incdir+c:/users/antonio/desktop/fpga-soc/ccd_vid/db/ip/ramsys/submodules {c:/users/antonio/desktop/fpga-soc/ccd_vid/db/ip/ramsys/submodules/ramsys_pll_0.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module RAMSYS_pll_0
+# 
+# Top level modules:
+# 	RAMSYS_pll_0
+# vlog -vlog01compat -work RAMSYS +incdir+c:/users/antonio/desktop/fpga-soc/ccd_vid/db/ip/ramsys/submodules {c:/users/antonio/desktop/fpga-soc/ccd_vid/db/ip/ramsys/submodules/altera_reset_controller.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module altera_reset_controller
+# 
+# Top level modules:
+# 	altera_reset_controller
+# vlog -vlog01compat -work RAMSYS +incdir+c:/users/antonio/desktop/fpga-soc/ccd_vid/db/ip/ramsys/submodules {c:/users/antonio/desktop/fpga-soc/ccd_vid/db/ip/ramsys/submodules/altera_reset_synchronizer.v}
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module altera_reset_synchronizer
+# 
+# Top level modules:
+# 	altera_reset_synchronizer
+# vcom -93 -work work {C:/Users/Antonio/Desktop/FPGA-SOC/CCD_VID/YCrCb_to_RGB.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1e Compiler 2013.06 Jun 12 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity YCrCb_to_RGB
+# -- Compiling architecture main of YCrCb_to_RGB
+# vcom -93 -work work {C:/Users/Antonio/Desktop/FPGA-SOC/CCD_VID/BT656.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1e Compiler 2013.06 Jun 12 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity BT656
+# -- Compiling architecture main of BT656
+# vcom -93 -work work {C:/Users/Antonio/Desktop/FPGA-SOC/CCD_VID/vga.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1e Compiler 2013.06 Jun 12 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity vga
+# -- Compiling architecture main of vga
+# vcom -93 -work work {C:/Users/Antonio/Desktop/FPGA-SOC/CCD_VID/RAM.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1e Compiler 2013.06 Jun 12 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity true_dual_port_ram_dual_clock
+# -- Compiling architecture rtl of true_dual_port_ram_dual_clock
+# vcom -93 -work work {C:/Users/Antonio/Desktop/FPGA-SOC/CCD_VID/my.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1e Compiler 2013.06 Jun 12 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package pcg
+# -- Compiling package body pcg
+# -- Loading package pcg
+# vcom -93 -work work {C:/Users/Antonio/Desktop/FPGA-SOC/CCD_VID/ccd.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1e Compiler 2013.06 Jun 12 2013
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package pcg
+# -- Compiling entity CCD
+# -- Compiling architecture main of CCD
+# 
+add wave -position insertpoint  \
+sim:/ycrcb_to_rgb/Y
+add wave -position insertpoint  \
+sim:/ycrcb_to_rgb/YCLK
+add wave -position insertpoint  \
+sim:/ycrcb_to_rgb/Yv
+add wave -position insertpoint  \
+sim:/ycrcb_to_rgb/enablein
+add wave -position insertpoint  \
+sim:/ycrcb_to_rgb/enableout
+add wave -position insertpoint  \
+sim:/ycrcb_to_rgb/R
+add wave -position insertpoint  \
+sim:/ycrcb_to_rgb/G
+add wave -position insertpoint  \
+sim:/ycrcb_to_rgb/Cb
+add wave -position insertpoint  \
+sim:/ycrcb_to_rgb/CR
+add wave -position insertpoint  \
+sim:/ycrcb_to_rgb/B
+force -freeze sim:/ycrcb_to_rgb/Y 125 0
+# Value length (3) does not equal array index length (8).
+# 
+# ** Error: (vsim-4011) Invalid force value: 125 0.
+# 
+force -freeze sim:/ycrcb_to_rgb/Y 11111111 0
+force -freeze sim:/ycrcb_to_rgb/Cb 00000000 0
+force -freeze sim:/ycrcb_to_rgb/CR 00000000 0
+force -freeze sim:/ycrcb_to_rgb/Y 00000000 0
+force -freeze sim:/ycrcb_to_rgb/YCLK 1 0, 0 {50 ps} -r 100
+force -freeze sim:/ycrcb_to_rgb/enablein 0 0
+run
+# ** Fatal: (vsim-3421) Value 1408 for Temp_CrR1 is out of range 0 to 255.
+#    Time: 100 ps  Iteration: 0  Process: /ycrcb_to_rgb/line__23 File: C:/Users/Antonio/Desktop/FPGA-SOC/CCD_VID/YCrCb_to_RGB.vhd
+# Fatal error in Process line__23 at C:/Users/Antonio/Desktop/FPGA-SOC/CCD_VID/YCrCb_to_RGB.vhd line 27
+# 
+# HDL call sequence:
+# Stopped at C:/Users/Antonio/Desktop/FPGA-SOC/CCD_VID/YCrCb_to_RGB.vhd 27 Process line__23
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at C:/Users/Antonio/Desktop/FPGA-SOC/CCD_VID/YCrCb_to_RGB.vhd 27 Process line__23
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at C:/Users/Antonio/Desktop/FPGA-SOC/CCD_VID/YCrCb_to_RGB.vhd 27 Process line__23
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at C:/Users/Antonio/Desktop/FPGA-SOC/CCD_VID/YCrCb_to_RGB.vhd 27 Process line__23
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at C:/Users/Antonio/Desktop/FPGA-SOC/CCD_VID/YCrCb_to_RGB.vhd 27 Process line__23
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at C:/Users/Antonio/Desktop/FPGA-SOC/CCD_VID/YCrCb_to_RGB.vhd 27 Process line__23
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at C:/Users/Antonio/Desktop/FPGA-SOC/CCD_VID/YCrCb_to_RGB.vhd 27 Process line__23
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at C:/Users/Antonio/Desktop/FPGA-SOC/CCD_VID/YCrCb_to_RGB.vhd 27 Process line__23
+# 
+force -freeze sim:/ycrcb_to_rgb/enablein 1 0
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at C:/Users/Antonio/Desktop/FPGA-SOC/CCD_VID/YCrCb_to_RGB.vhd 27 Process line__23
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at C:/Users/Antonio/Desktop/FPGA-SOC/CCD_VID/YCrCb_to_RGB.vhd 27 Process line__23
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at C:/Users/Antonio/Desktop/FPGA-SOC/CCD_VID/YCrCb_to_RGB.vhd 27 Process line__23
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at C:/Users/Antonio/Desktop/FPGA-SOC/CCD_VID/YCrCb_to_RGB.vhd 27 Process line__23
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at C:/Users/Antonio/Desktop/FPGA-SOC/CCD_VID/YCrCb_to_RGB.vhd 27 Process line__23
+# 
+restart
+# Loading work.ycrcb_to_rgb(main)

@@ -1,0 +1,16 @@
+<sld_project_info>
+  <project>
+    <hash md5_digest_80b="6e2967c6f93d39b2254d"/>
+  </project>
+  <file_info>
+    <file device="5CSEMA5F31C6" path="SDRAM.sof" usercode="0xFFFFFFFF"/>
+  </file_info>
+  <sld_infos>
+    <sld_info hpath="RAMSYS:u0" name="u0">
+      <assignment_values>
+        <assignment_value text="QSYS_NAME RAMSYS HAS_SOPCINFO 1 GENERATION_ID 1431293150"/>
+      </assignment_values>
+      <parameters/>
+    </sld_info>
+  </sld_infos>
+</sld_project_info>

@@ -1,0 +1,69 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+ entity YCrCb_to_RGB is
+ port(
+ YCLK: IN STD_LOGIC;
+ Y,CR,Cb: IN std_logic_vector(7 downto 0);
+ R,G,B: OUT std_logic_vector(7 downto 0);
+ enablein: in std_logic;
+ enableout: out std_logic
+ );
+ end YCrCb_to_RGB;
+ 
+ 
+ 
+ architecture main of YCrCb_to_RGB is
+SIGNAL Rv,Gv,Bv: INTEGER RANGE 0 to 255:=0;
+SIGNAL EN0,EN1,EN2: STD_LOGIC;
+SIGNAL Yv, Crv: STD_LOGIC_VECTOR(7 downto 0);
+SIGNAL Temp_CrG1,Temp_CrG2,Temp_CrR1,Temp_CrR2,Temp_CbG1,Temp_CbG2,Temp_CbB1,Temp_CbB2: INTEGER RANGE 0 TO 255;
+BEGIN
+PROCESS(YCLK)
+BEGIN
+IF rising_edge(YCLK)THEN
+-------------------red---------------------
+	 Temp_CrR1<=to_integer(unsigned(Cr)-128)*11;
+	         EN0<=ENABLEIN;
+	 Temp_CrR2<=Temp_CrR1/8;
+	         EN1<=EN0;
+    Rv<=to_integer(unsigned(Y))+Temp_CrR2;
+	         EN2<=EN1;
+	 IF(Rv<255)THEN
+		R<=STD_LOGIC_VECTOR(to_unsigned(Rv,8));
+		else
+		R<=(others=>'1');
+    END IF;
+		ENABLEOUT<=EN2;
+
+
+---------------------green-------------------------
+ 
+	        Temp_CbG1<=to_integer(unsigned(Cb)-128)*11;
+	        Temp_CrG1<=to_integer(unsigned(Cr)-128)*23;
+           
+			  Temp_CbG2<=Temp_CbG1/32;
+	        Temp_CrG2<=Temp_CrG1/32;
+          
+			 Gv<=to_integer(unsigned(Y))-Temp_CbG2-Temp_CrG2;
+	       IF(Gv<255)THEN
+				G<=STD_LOGIC_VECTOR(to_unsigned(Gv,8));
+				ELSE
+				G<=(others=>'1');
+			  END IF;
+
+ -------------------------blue-------------------------
+
+	 Temp_CbB1<=to_integer(unsigned(Cb)-128)*27;
+	 Temp_CbB2<=Temp_CbB1/16;
+	 Bv<=to_integer(unsigned(Y))+Temp_CbB2;
+     IF(Bv<255)THEN
+					B<=STD_LOGIC_VECTOR(to_unsigned(Bv,8));
+					ELSE
+				   B<=(others=>'1');
+     END IF;
+ END IF;
+ END PROCESS;
+ END MAIN;
+ 

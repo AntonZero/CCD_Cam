@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="SDRAM">
+		<CBX_INST_ENTRY INSTANCE_NAME="|CCD|true_dual_port_ram_dual_clock:u5|altsyncram:ram_rtl_0" CBX_FILE_NAME="altsyncram_4gi1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|CCD|true_dual_port_ram_dual_clock:u4|altsyncram:ram_rtl_0" CBX_FILE_NAME="altsyncram_4gi1.tdf"/>
+	</PROJECT>
+</LOG_ROOT>
